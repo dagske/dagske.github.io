@@ -7,6 +7,7 @@
 		{% assign link = '/' %}
 		{% assign prompt = 'Back to Home' %}
 	{% endif %}
-	<a href="{{ link | prepend: site.baseurl }}">{{ prompt }}</a>
+	<a href="{{ link | prepend: site.baseurl }}"></a>
+	<span class="logo-prompt">{{ prompt }}</span>
 
 </aside>
